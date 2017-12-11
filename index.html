@@ -49,9 +49,10 @@
               <h1 class="name">{{ site.data.cv.person.name }}</h1>
               <span class="profession">{{ site.data.cv.person.profession }}</span>
           </div>
+
           <div class="col-md-5 text-center">
               <img src="{{ site.data.cv.person.depiction }}" height="130px" width="130px" alt="{{ site.data.cv.person.name }}'s Photo">
-          </div
+          </div>
           <div class="col-xs-3">
               <ul class="list-unstyled">
                   {% if site.data.cv.person.location %}
@@ -145,7 +146,7 @@
         </ul>
 
             </div>
-	-->
+			-->
       </div>
     </div>
 
@@ -206,8 +207,7 @@
          <div class="jd">
           <div class="row">
             <div class="col-xs-6">
-              <h4><b>{{ item.position }}</b><br/>
-			  {{item.company}}</h4>
+              <h4><b>{{ item.position }}</b><br/>{{item.company}}</h4>
             </div>
             <div class="col-xs-6 pull-right">
               <h5 class="pull-right">{{ item.dates }}<br/></h5>
