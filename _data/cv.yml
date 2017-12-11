@@ -1,0 +1,99 @@
+url: http://zhouatuchicago.github.io
+projectUrl: http://www.zhouatuchicago.com
+
+# leave blank fields which you don't want to fill/be displayed
+person:
+  name: Honglei Zhou
+  depiction: 
+  profession: Computer Science Major and Aspiring Software Engineer
+  location: Chicago
+  citizenship: USA
+  email: hongleizhou@uchicago.edu
+  site: https://zhouatuchicago.github.io
+  phone: (215) 303 7602
+  github: /zhouatuchicago
+  stackoverflow: 
+  linkedin: /honglei-zhou
+
+career:
+ - position: Project Manager
+   company: CD Genomics
+   location: New York, USA
+   dates: April 2017 - September 2017
+   summary: Estimating project cost, turnaround time, and risks.Monitoring project progress and updating progress with customers.Organizing and hosting telephone conferences with customers.Working with vendors on technical problems.
+   accomplishments:
+    - accomplishment: Finished 9 projects with customers from different organizations 
+    - accomplishment: Developed new projects based on collaborations and strategic partnerships with pharmaceutical companies.
+ - position: Research Assistant
+   company: Thomas Jefferson University
+   location: Philadelphia, USA
+   dates: June 2012 – July 2016
+   summary: Cleaning and Mapping Next Generation Sequencing Data against reference sequences. Analyzing mapped data, assessing and validating biological models.
+   accomplishments:
+    - accomplishment: Discovered a list of genes that are abnormally expressed in pancreatic cancer
+    - accomplishment: Validated the functional roles of one abnormally expressed genes in pancreatic cancer
+
+technicalSkills:
+  list:
+    - tr: 
+    - tr: 
+    - tr: 
+    - tr: 
+    - tr: 
+    - tr: 
+  backend:
+   - name: Java
+     level: 85
+   - name: Python
+     level: 80
+   - name: PHP
+     level: 70
+  frontend:
+   - name: HTML/CSS
+     level: 80
+   - name: JavaScript
+     level: 70
+  other:
+   - name: MySQL/SQL Server
+     level: 85
+   - name: Shell Scripting
+     level: 80
+   - name: Struts2/Hibernate/Spring
+     level: 70
+
+sideProjects:
+  - name: University Registrar's System
+    description:Designed a basic system for the maintenance of students' academic records at a university
+                Wrote modules for the system to perform basic functions such as initializing the university system, enrolling
+                    students, scheduling courses, hiring instructors, registering students for the class, recording grades of registered
+                    students, retrieving academic transcripts,et al.
+                Wrote moduel to persist the data in the program when exiting and retrieve the data when starting
+    link: https://github.com/zhouatuchicago/University-Registar-System.git
+    type: github
+    langs: Python
+
+  - name: Movie Recommendation System
+    description:Designed a basic movie recommendation system that supporting functionalities such as recommending movies based
+                   on user's preference, searching movies based on key words, writing reviews for movies, et al.
+                Designed the database for the system from drawing ER Diagrams, defining relationships, performing normalization,
+                   to implementing the database
+                Wrote a simple web crawler with Python to crawl movie information and cast information from tmdb.org
+                Wrote Python scripts to clean and process data for the movie recommendation system
+                Trained the recommendation model using collaborative filtering algorithms with the data
+                Developed the system using PHP at server side and HTML/CSS, JavaScript at front end
+                Implemented the system in Linux server, with MySQL database and Apache HTTP server
+    link: http://www.zhouatuchicago.com
+    type: site
+    langs: PHP,HTML/CSS
+
+education:
+  - name: The University of Chicago
+    degree: Master of Science, Computer Science
+    location: Chicago
+    dates: 2017 – 2018
+    link: 
+  - name: Thomas Jefferson University
+    degree: Doctor of Philosophy, Bioinformatics
+    location: Philadelphia
+    dates: 2010 – 2016
+    link: 
