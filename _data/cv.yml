@@ -11,9 +11,9 @@ person:
   email: hongleizhou@uchicago.edu
   site: https://zhouatuchicago.github.io
   phone: (215) 303 7602
-  github: https://github.com/zhouatuchicago
+  github: /zhouatuchicago
   stackoverflow: 
-  linkedin: https://www.linkedin.com/in/honglei-zhou
+  linkedin: /honglei-zhou
 
 career:
  - position: Project Manager
@@ -72,6 +72,7 @@ projects:
    link: https://github.com/zhouatuchicago/University-Registar-System.git
    type: github
    langs: Python
+   
  - name: Movie Recommendation System
    dates: September 2017 - Decmeber 2017
    summary: This is a Databases class final project. The project is aimed to design and implement an online system that integrating knowledge of MySQL, Linux, PHP, and HTML/CSS.
