@@ -92,7 +92,7 @@
           </div>
       </div>
 	
-	  <div class="row section section-border">
+	<div class="row section section-border">
       <div class="col-xs-3"><h2>Education</h2></div>
       <div class="col-xs-9">
 
@@ -100,7 +100,7 @@
         <div class="row">
           <div class="col-xs-12"><h4><b>{{item.name}}</b></h4></div>
           <div class="col-xs-12"><i class="fa fa-graduation-cap"></i> {{item.degree}} ({{item.dates}})</div>
-          <div class="col-xs-12"><a href="{{item.link}}">{{item.link}}</a>, {{item.location}}</div>
+          <div class="col-xs-12"><a href="{{item.link}}">{{item.link}}</a>{{item.location}}</div>
         </div>
         {% endfor %}
         </div>
@@ -137,6 +137,7 @@
           {% endfor %}
         </div>
         </div>
+	      <!--
         <div>
           <h4><i class="fa fa-male"></i> Key competencies:</h4>
         <ul>
@@ -146,6 +147,7 @@
         </ul>
 
             </div>
+	-->
       </div>
     </div>
 
