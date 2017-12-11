@@ -6,14 +6,14 @@ person:
   name: Honglei Zhou
   # depiction: 
   profession: Computer Science Major and Aspiring Software Engineer
-  location: Chicago
-  citizenship: USA
+  location: Chicago, IL
+  # citizenship: USA
   email: hongleizhou@uchicago.edu
   site: https://zhouatuchicago.github.io
   phone: (215) 303 7602
-  github: /zhouatuchicago
+  github: https://github.com/zhouatuchicago
   stackoverflow: 
-  linkedin: /honglei-zhou
+  linkedin: https://www.linkedin.com/in/honglei-zhou
 
 career:
  - position: Project Manager
@@ -61,27 +61,40 @@ technicalSkills:
    - name: Struts2/Hibernate/Spring
      level: 70
 
-sideProjects:
-  - name: University Registrar's System
-    description: Designed a basic system for the maintenance of students' academic records at a university. Wrote modules for the system to perform basic functions such as initializing the university system, enrolling students, scheduling courses, hiring instructors, registering students for the class, recording grades of registered students, retrieving academic transcripts,et al. Wrote moduel to persist the data in the program when exiting and retrieve the data when starting
-    link: https://github.com/zhouatuchicago/University-Registar-System.git
-    type: github
-    langs: Python
-
-  - name: Movie Recommendation System
-    description: Designed a basic movie recommendation system that supporting functionalities such as recommending movies based on user's preference, searching movies based on key words, writing reviews for movies, et al. Designed the database for the system from drawing ER Diagrams, defining relationships, performing normalization, to implementing the database. Wrote a simple web crawler with Python to crawl movie information and cast information from tmdb.org. Wrote Python scripts to clean and process data for the movie recommendation system. Trained the recommendation model using collaborative filtering algorithms with the data. Developed the system using PHP at server side and HTML/CSS, JavaScript at front end. Implemented the system in Linux server, with MySQL database and Apache HTTP server
-    link: http://www.zhouatuchicago.com
-    type: site
-    langs: PHP,HTML/CSS
+projects:
+ - name: University Registrar's System
+   dates: October 2017 - Decmeber 2017
+   summary: This is a Python class final project. The project is aimed to design and implement a bsic system that fulfills some functions that a university's academic system has.
+   accomplishments:
+    - accomplishment: Designed a basic system for the maintenance of students' academic records at a university 
+    - accomplishment: Wrote modules for the system to perform basic functions such as initializing the university system, enrolling students, scheduling courses, hiring instructors, registering students for the class, recording grades of registered students, retrieving academic transcripts,et al
+    - accomplishment: Wrote moduel to persist the data in the program when exiting and retrieve the data when starting
+   link: https://github.com/zhouatuchicago/University-Registar-System.git
+   type: github
+   langs: Python
+ - name: Movie Recommendation System
+   dates: September 2017 - Decmeber 2017
+   summary: This is a Databases class final project. The project is aimed to design and implement an online system that integrating knowledge of MySQL, Linux, PHP, and HTML/CSS.
+   accomplishments:
+    - accomplishment: Designed a basic movie recommendation system that supporting functionalities such as recommending movies based on user's preference, searching movies based on key words, writing reviews for movies, et al.
+    - accomplishment: Designed the database for the system from drawing ER Diagrams, defining relationships, performing normalization, to implementing the database
+    - accomplishment: Wrote a simple web crawler with Python to crawl movie information and cast information from tmdb.org
+    - accomplishment: Wrote Python scripts to clean and process data for the movie recommendation system
+    - accomplishment: Trained the recommendation model using collaborative filtering algorithms with the data
+    - accomplishment: Developed the system using PHP at server side and HTML/CSS, JavaScript at front end
+    - accomplishment: Implemented the system in Linux server, with MySQL database and Apache HTTP server
+   link: http://www.zhouatuchicago.com
+   type: site
+   langs: PHP,HTML/CSS
 
 education:
   - name: The University of Chicago
     degree: Master of Science, Computer Science
-    location: Chicago
+    location: Chicago, IL
     dates: 2017 – 2018
     link: 
   - name: Thomas Jefferson University
     degree: Doctor of Philosophy, Bioinformatics
-    location: Philadelphia
+    location: Philadelphia, PA
     dates: 2010 – 2016
     link: 
