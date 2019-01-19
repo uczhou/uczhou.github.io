@@ -11,11 +11,27 @@ person:
   email: hongleizhou@uchicago.edu
   site: zhouatuchicago.github.io
   phone: (215) 303 7602
-  github: /zhouatuchicago
+  github: /uczhou
   stackoverflow: 
   linkedin: /honglei-zhou
 
 career:
+ - position: Full Stack Developer
+   company: Bliss Motors
+   location: Chicago, IL
+   dates: January 2019 - Present
+   summary: Project-focused intensive programming with emphasis on Python, Postgresql, Scrapy, Redis and MongoDB technical stack
+   accomplishments:
+    - accomplishment: Developed a distributed web crawler, using scrapy framework and scrapy-redis module. Redis is deployed in master node for slave nodes to store and fetch requests, as well as items. MongoDB is used to store crawled non-structured data. Item process cluster is deployed to process items in redis and persist them into postgresql database. Clusters are automatically deployed with docker container in cloud.
+ - position: Intern, Full Stack Developer
+   company: Bliss Motors
+   location: Chicago, IL
+   dates: September 2018 - December 2018
+   summary: Project-focused intensive programming with emphasis on Javascript, Python, Postgresql and Django technical stack
+   accomplishments:
+    - accomplishment: Developed a wix web site with customized functionalities, using Javascript. 1. Customized registration and registration confirmation are integrated into the website, allowing users to register as a customer or a dealership. 2. SuiteCRM is partially integrated into the website, allowing creating leads and contacts in CRM system through web site when customers submit query. 3. Customized email notification is integrated in the web, making it easier for sales to receive and track individual query submitted through web site. 4. Customized career page is integrated in the web site. Job candidates are able to submit their application directly through the website.
+    - accomplishment: Developed a message system, using Python. 1. Twilio platform is used for building SMS application. 2. Django is used to build webhook to receive SMS from customers and forward to Ejabbered server. 3. Ejabbered is used as a backend message server to deliver the SMS to internal app. Incoming messages will be automatically assigned to available sales or customercare team members based on Round-robin algorithm. 4. Postgresql is used to store messages as well as customers information.
+    - accomplishment: Developed an email monitoring/analyzing system, using Python, Django and Postgresql. 1. Python is used to build backend system to retrieve both incoming and outgoing mails in company's email account in a timely manner and stored the data in Postgresql. 2. Django is used to build web end for internal users to view statistics of mail communications, such as average response time and average number of daily mails.
  - position: Project Manager
    company: CD Genomics
    location: New York, USA
@@ -42,11 +58,13 @@ technicalSkills:
     - tr: 
     - tr: 
   backend:
-   - name: Java
-     level: 85
    - name: Python
+     level: 85
+   - name: Java
      level: 80
    - name: PHP
+     level: 70
+   - name: C
      level: 70
   frontend:
    - name: HTML/CSS
@@ -54,14 +72,12 @@ technicalSkills:
    - name: JavaScript
      level: 70
   other:
-   - name: MySQL/SQL Server
+   - name: Postgresql/MySQL/SQL Server
      level: 85
-   - name: Shell Scripting
-     level: 80
-   - name: Struts2/Hibernate/Spring
+   - name: AWS, Git, Docker, MongoDB
      level: 70
 
-projects:
+class projects:
  - name: University Registrar's System
    dates: October 2017 - Decmeber 2017
    summary: This is a Python class final project. The project is aimed to design and implement a bsic system that fulfills some functions that a university's academic system has.
@@ -91,11 +107,13 @@ projects:
 education:
   - name: The University of Chicago
     degree: Master of Science, Computer Science
+    GPA: 3.97
     location: Chicago, IL
     dates: 2017 – 2018
     link: 
   - name: Thomas Jefferson University
     degree: Doctor of Philosophy, Bioinformatics
+    GPA: 3.84
     location: Philadelphia, PA
     dates: 2010 – 2016
     link: 
