@@ -77,32 +77,6 @@ technicalSkills:
    - name: AWS, Git, Docker, MongoDB
      level: 70
 
-projects:
- - name: AWS based Genomics Annotation Service Application
-   dates: March 2018 - June 2018
-   summary: This is a Cloud Computing class final project. The project is aimed to develop and deploy a web app on AWS.
-   accomplishments:
-    - accomplishment: Built the GAS web application with Flask framework and integrated Stripe payment in the application
-    - accomplishment: Processed inter-process communication with SNS and SQS to allow services to operate asynchronously
-    - accomplishment: Stored users new data with Amazon S3 and archived data with Glacier
-    - accomplishment: Used Amazon Dynamodb to store users submitted jobs information and PostgreSQL to store users’ account information
-    - accomplishment: Provided a load balancer and auto scaling rules to web servers and service servers
-   link: https://github.com/uczhou/awsproject.git
-   type: github
-   langs: Python
-   
- - name: Movie Recommendation System
-   dates: September 2017 - Decmeber 2017
-   summary: This is a Databases class final project. The project is aimed to design and implement an online system that integrating knowledge of MySQL, Linux, PHP, and HTML/CSS.
-   accomplishments:
-    - accomplishment: Designed a basic movie recommendation system that supporting functionalities such as recommending movies based on user’s preference, searching movies based on key words, writing reviews for movies, et cetera.
-    - accomplishment: Designed the database for the system from drawing ER Diagrams, defining relationships, performing normalization, to implementing the database
-    - accomplishment: Crawled movie information and cast information from tmdb.org, cleaned and processed data for the movie recommendation system, and trained the recommendation model using collaborative filtering algorithms with the data
-    - accomplishment: Developed the system using PHP at server side and HTML/CSS, JavaScript at front end, and implemented the system in Linux server, with MySQL database and Apache HTTP server
-   link: 
-   type: site
-   langs: PHP,HTML/CSS
-
 education:
   - name: The University of Chicago
     degree: Master of Science, Computer Science
@@ -116,3 +90,29 @@ education:
     location: Philadelphia, PA
     dates: 2010 – 2016
     link: 
+
+projects:
+  - name: AWS based Genomics Annotation Service Application
+    dates: March 2018 - June 2018
+    summary: This is a Cloud Computing class final project. The project is aimed to develop and deploy a web app on AWS.
+    accomplishments:
+     - accomplishment: Built the GAS web application with Flask framework and integrated Stripe payment in the application
+     - accomplishment: Processed inter-process communication with SNS and SQS to allow services to operate asynchronously
+     - accomplishment: Stored users new data with Amazon S3 and archived data with Glacier
+     - accomplishment: Used Amazon Dynamodb to store users submitted jobs information and PostgreSQL to store users’ account information
+     - accomplishment: Provided a load balancer and auto scaling rules to web servers and service servers
+    link: https://github.com/uczhou/awsproject.git
+    type: github
+    langs: Python
+
+  - name: Movie Recommendation System
+    dates: September 2017 - Decmeber 2017
+    summary: This is a Databases class final project. The project is aimed to design and implement an online system that integrating knowledge of MySQL, Linux, PHP, and HTML/CSS.
+    accomplishments:
+     - accomplishment: Designed a basic movie recommendation system that supporting functionalities such as recommending movies based on user’s preference, searching movies based on key words, writing reviews for movies, et cetera.
+     - accomplishment: Designed the database for the system from drawing ER Diagrams, defining relationships, performing normalization, to implementing the database
+     - accomplishment: Crawled movie information and cast information from tmdb.org, cleaned and processed data for the movie recommendation system, and trained the recommendation model using collaborative filtering algorithms with the data
+     - accomplishment: Developed the system using PHP at server side and HTML/CSS, JavaScript at front end, and implemented the system in Linux server, with MySQL database and Apache HTTP server
+    link: 
+    type: site
+    langs: PHP,HTML/CSS
