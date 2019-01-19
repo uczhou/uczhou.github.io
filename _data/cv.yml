@@ -77,15 +77,17 @@ technicalSkills:
    - name: AWS, Git, Docker, MongoDB
      level: 70
 
-class projects:
- - name: University Registrar's System
-   dates: October 2017 - Decmeber 2017
-   summary: This is a Python class final project. The project is aimed to design and implement a bsic system that fulfills some functions that a university's academic system has.
+projects:
+ - name: AWS based Genomics Annotation Service Application
+   dates: March 2018 - June 2018
+   summary: This is a Cloud Computing class final project. The project is aimed to develop and deploy a web app on AWS.
    accomplishments:
-    - accomplishment: Designed a basic system for the maintenance of students' academic records at a university 
-    - accomplishment: Wrote modules for the system to perform basic functions such as initializing the university system, enrolling students, scheduling courses, hiring instructors, registering students for the class, recording grades of registered students, retrieving academic transcripts,et al
-    - accomplishment: Wrote moduel to persist the data in the program when exiting and retrieve the data when starting
-   link: https://github.com/zhouatuchicago/University-Registar-System.git
+    - accomplishment: Built the GAS web application with Flask framework and integrated Stripe payment in the application
+    - accomplishment: Processed inter-process communication with SNS and SQS to allow services to operate asynchronously
+    - accomplishment: Stored users new data with Amazon S3 and archived data with Glacier
+    - accomplishment: Used Amazon Dynamodb to store users submitted jobs information and PostgreSQL to store users’ account information
+    - accomplishment: Provided a load balancer and auto scaling rules to web servers and service servers
+   link: https://github.com/uczhou/awsproject.git
    type: github
    langs: Python
    
@@ -93,14 +95,11 @@ class projects:
    dates: September 2017 - Decmeber 2017
    summary: This is a Databases class final project. The project is aimed to design and implement an online system that integrating knowledge of MySQL, Linux, PHP, and HTML/CSS.
    accomplishments:
-    - accomplishment: Designed a basic movie recommendation system that supporting functionalities such as recommending movies based on user's preference, searching movies based on key words, writing reviews for movies, et al.
+    - accomplishment: Designed a basic movie recommendation system that supporting functionalities such as recommending movies based on user’s preference, searching movies based on key words, writing reviews for movies, et cetera.
     - accomplishment: Designed the database for the system from drawing ER Diagrams, defining relationships, performing normalization, to implementing the database
-    - accomplishment: Wrote a simple web crawler with Python to crawl movie information and cast information from tmdb.org
-    - accomplishment: Wrote Python scripts to clean and process data for the movie recommendation system
-    - accomplishment: Trained the recommendation model using collaborative filtering algorithms with the data
-    - accomplishment: Developed the system using PHP at server side and HTML/CSS, JavaScript at front end
-    - accomplishment: Implemented the system in Linux server, with MySQL database and Apache HTTP server
-   link: http://www.zhouatuchicago.com
+    - accomplishment: Crawled movie information and cast information from tmdb.org, cleaned and processed data for the movie recommendation system, and trained the recommendation model using collaborative filtering algorithms with the data
+    - accomplishment: Developed the system using PHP at server side and HTML/CSS, JavaScript at front end, and implemented the system in Linux server, with MySQL database and Apache HTTP server
+   link: 
    type: site
    langs: PHP,HTML/CSS
 
