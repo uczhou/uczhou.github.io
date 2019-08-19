@@ -20,7 +20,7 @@ career:
    company: Bliss Motors
    location: Chicago, IL
    dates: January 2019 - Present
-   summary:    
+   summary: Project-focused intensive programming with emphasis on Javascript, Vue.js, Python, Postgresql and Django technical stack     
    accomplishments:
     - accomplishment: Developed chatbot frontend, backend, and dashboard, using Vue.js, Flask, Flask-SocketIO, Socket.IO, etc. Tech stack used- Javascript, Vue.js, HTML/CSS, Python, Flask, Flask-SocketIO, Socket.IO, serverless, and Postgresql
     - accomplishment: Developed website frontend for mobile devices and desktops with customized functionalities, using Vue.js. Tech stack used- Javascript, Vue.js, HTML/CSS
