@@ -107,7 +107,7 @@ education:
 projects:
   - name: BMLIFE iOS app backend
     dates: May 2019 - June 2019
-    summary: BMLIFE backend: Developed backend stack to crawl data from internet, provide services to iOS app and process data offline. Tech stack used: Python, Django, Django Rest-Framework, Postgresql, Scrapy, Selenium, S3 and headless chrome.    
+    summary: Developed BMLIFE backend stack to crawl data from internet, provide services to iOS app and process data offline. Tech stack used: Python, Django, Django Rest-Framework, Postgresql, Scrapy, Selenium, S3 and headless chrome.    
     accomplishments:
      - accomplishment: Designed and implemented RESTful APIs from scratch.
      - accomplishment: Designed and implemented web crawler from scratch.
