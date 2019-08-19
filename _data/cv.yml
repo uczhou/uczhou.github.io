@@ -20,16 +20,17 @@ career:
    company: Bliss Motors
    location: Chicago, IL
    dates: January 2019 - Present
-   summary: Developed chatbot frontend, backend, and dashboard, using Vue.js, Flask, Flask-SocketIO, Socket.IO, etc. Tech stack used: Javascript, Vue.js, HTML/CSS, Python, Flask, Flask-SocketIO, Socket.IO, serverless, and Postgresql
+   summary: Developed chatbot frontend, backend, and dashboard, using Vue.js, Flask, Flask-SocketIO, Socket.IO, etc. Tech stack used- Javascript, Vue.js, HTML/CSS, Python, Flask, Flask-SocketIO, Socket.IO, serverless, and Postgresql
    accomplishments:
     - accomplishment: Designed and implemented both mobile version and desktop version frontend from scratch.
     - accomplishment: Designed and implemented bot dashboard from scratch.
     - accomplishment: Designed and implemented chatbot backend from scratch with Flask, Flask-SocketIO and Serverless.
-   summary: Developed website frontend for mobile devices and desktops with customized functionalities, using Vue.js. Tech stack used: Javascript, Vue.js, HTML/CSS
+   summary: Developed website frontend for mobile devices and desktops with customized functionalities, using Vue.js. Tech stack used- Javascript, Vue.js, HTML/CSS
    accomplishments:
     - accomplishment: Designed and implemented both mobile version and desktop version frontend from scratch with Vue.js framework. The website allowed users to browse news with different categories, search for new cars, submit queries, etc.
     - accomplishment: Integrated third-party services such as SuiteCRM and Stripe into the website. Leads, contacts and payment information can be created in CRM system when users submitting queries or pay online.
-   summary: Developed backend stack to assist website and internal messaging system. Tech stack used: Python, Django, Django Rest-Framework, OAuth, Twilio, Ejabbered, Postgresql   accomplishments:
+   summary: Developed backend stack to assist website and internal messaging system. Tech stack used- Python, Django, Django Rest-Framework, OAuth, Twilio, Ejabbered, Postgresql   
+   accomplishments:
     - accomplishment: Designed RESTful APIs following common principles and implemented with Django, Django Rest-Framework and Postgresql. Frontend could retrieve, create and update data by calling the APIs.    
     - accomplishment: Built Twilio webhook with Django to receive SMS from customers and forward to Ejabbered server. 1. Ejabbered is used as a backend message server to deliver the SMS to internal app. 2. Incoming messages will be automatically assigned to available sales/customercare team members based on Round-robin algorithm. 3. Postgresql is used to store messages as well as customers information.
    summary: Project-focused intensive programming with emphasis on Python, Postgresql, Scrapy, Redis and MongoDB technical stack
