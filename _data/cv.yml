@@ -80,7 +80,7 @@ technicalSkills:
   other:
    - name: Socket.IO
      level: 85
-   - name: AWS(EC2,S3,CloudFront,Route53,SNS,SQS,etc.)
+   - name: AWS(EC2,S3,CloudFront,Route53,etc.)
      level: 85
    - name: Git, Docker, OpenStack
      level: 70
