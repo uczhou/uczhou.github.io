@@ -8,18 +8,30 @@ person:
   profession: Computer Science Major and Aspiring Software Engineer
   location: Chicago, IL
   # citizenship: USA
-  email: hongleizhou@uchicago.edu
-  site: zhouatuchicago.github.io
+  email: nbhlzhou@gmail.com
+  site: uczhou.github.io
   phone: (215) 303 7602
   github: /uczhou
   stackoverflow: 
   linkedin: /honglei-zhou
 
 career:
- - position: Full Stack Developer
+ - position: Co-Founder and Full Stack Developer
    company: Bliss Motors
    location: Chicago, IL
    dates: January 2019 - Present
+   summary: BlissMotors Chatbot Project: Developed chatbot frontend, backend, and dashboard, using Vue.js, Flask, Flask-SocketIO, Socket.IO, etc. Tech stack used: Javascript, Vue.js, HTML/CSS, Python, Flask, Flask-SocketIO, Socket.IO, serverless, and Postgresql
+   accomplishments:
+    - accomplishment: Designed and implemented both mobile version and desktop version frontend from scratch.
+    - accomplishment: Designed and implemented bot dashboard from scratch.
+    - accomplishment: Designed and implemented chatbot backend from scratch with Flask, Flask-SocketIO and Serverless.
+   summary: BlissMotors Web Frontend: Developed website frontend for mobile devices and desktops with customized functionalities, using Vue.js. Tech stack used: Javascript, Vue.js, HTML/CSS
+   accomplishments:
+    - accomplishment: Designed and implemented both mobile version and desktop version frontend from scratch with Vue.js framework. The website allowed users to browse news with different categories, search for new cars, submit queries, etc.
+    - accomplishment: Integrated third-party services such as SuiteCRM and Stripe into the website. Leads, contacts and payment information can be created in CRM system when users submitting queries or pay online.
+   summary: BlissMotors Backend Stack: Developed backend stack to assist website and internal messaging system. Tech stack used: Python, Django, Django Rest-Framework, OAuth, Twilio, Ejabbered, Postgresql   accomplishments:
+    - accomplishment: Designed RESTful APIs following common principles and implemented with Django, Django Rest-Framework and Postgresql. Frontend could retrieve, create and update data by calling the APIs.    
+    - accomplishment: Built Twilio webhook with Django to receive SMS from customers and forward to Ejabbered server. 1. Ejabbered is used as a backend message server to deliver the SMS to internal app. 2. Incoming messages will be automatically assigned to available sales/customercare team members based on Round-robin algorithm. 3. Postgresql is used to store messages as well as customers information.
    summary: Project-focused intensive programming with emphasis on Python, Postgresql, Scrapy, Redis and MongoDB technical stack
    accomplishments:
     - accomplishment: Developed a distributed web crawler, using scrapy framework and scrapy-redis module. Redis is deployed in master node for slave nodes to store and fetch requests, as well as items. MongoDB is used to store crawled non-structured data. Item process cluster is deployed to process items in redis and persist them into postgresql database. Clusters are automatically deployed with docker container in cloud.
@@ -69,8 +81,8 @@ technicalSkills:
   frontend:
    - name: HTML/CSS
      level: 80
-   - name: JavaScript
-     level: 70
+   - name: JavaScript, Vue.js
+     level: 80
   other:
    - name: Postgresql/MySQL/SQL Server
      level: 85
@@ -92,6 +104,17 @@ education:
     link: 
 
 projects:
+  - name: BMLIFE iOS app backend
+    dates: May 2019 - June 2019
+    summary: BMLIFE backend: Developed backend stack to crawl data from internet, provide services to iOS app and process data offline. Tech stack used: Python, Django, Django Rest-Framework, Postgresql, Scrapy, Selenium, S3 and headless chrome.    
+    accomplishments:
+     - accomplishment: Designed and implemented RESTful APIs from scratch.
+     - accomplishment: Designed and implemented web crawler from scratch.
+     - accomplishment: Designed and implemented database tools from scratch.
+    link: https://github.com/uczhou/bmlife_backend
+    type: site
+    langs: PHP,HTML/CSS
+    
   - name: AWS based Genomics Annotation Service Application
     dates: March 2018 - June 2018
     summary: This is a Cloud Computing class final project. The project is aimed to develop and deploy a web app on AWS.
@@ -101,18 +124,6 @@ projects:
      - accomplishment: Stored users new data with Amazon S3 and archived data with Glacier
      - accomplishment: Used Amazon Dynamodb to store users submitted jobs information and PostgreSQL to store users’ account information
      - accomplishment: Provided a load balancer and auto scaling rules to web servers and service servers
-    link: https://github.com/uczhou/awsproject.git
+    link: https://github.com/uczhou/awsproject
     type: github
     langs: Python
-
-  - name: Movie Recommendation System
-    dates: September 2017 - Decmeber 2017
-    summary: This is a Databases class final project. The project is aimed to design and implement an online system that integrating knowledge of MySQL, Linux, PHP, and HTML/CSS.
-    accomplishments:
-     - accomplishment: Designed a basic movie recommendation system that supporting functionalities such as recommending movies based on user’s preference, searching movies based on key words, writing reviews for movies, et cetera.
-     - accomplishment: Designed the database for the system from drawing ER Diagrams, defining relationships, performing normalization, to implementing the database
-     - accomplishment: Crawled movie information and cast information from tmdb.org, cleaned and processed data for the movie recommendation system, and trained the recommendation model using collaborative filtering algorithms with the data
-     - accomplishment: Developed the system using PHP at server side and HTML/CSS, JavaScript at front end, and implemented the system in Linux server, with MySQL database and Apache HTTP server
-    link: 
-    type: site
-    langs: PHP,HTML/CSS
