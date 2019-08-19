@@ -20,21 +20,11 @@ career:
    company: Bliss Motors
    location: Chicago, IL
    dates: January 2019 - Present
-   summary: Developed chatbot frontend, backend, and dashboard, using Vue.js, Flask, Flask-SocketIO, Socket.IO, etc. Tech stack used- Javascript, Vue.js, HTML/CSS, Python, Flask, Flask-SocketIO, Socket.IO, serverless, and Postgresql
+   summary:    
    accomplishments:
-    - accomplishment: Designed and implemented both mobile version and desktop version frontend from scratch.
-    - accomplishment: Designed and implemented bot dashboard from scratch.
-    - accomplishment: Designed and implemented chatbot backend from scratch with Flask, Flask-SocketIO and Serverless.
-   summary: Developed website frontend for mobile devices and desktops with customized functionalities, using Vue.js. Tech stack used- Javascript, Vue.js, HTML/CSS
-   accomplishments:
-    - accomplishment: Designed and implemented both mobile version and desktop version frontend from scratch with Vue.js framework. The website allowed users to browse news with different categories, search for new cars, submit queries, etc.
-    - accomplishment: Integrated third-party services such as SuiteCRM and Stripe into the website. Leads, contacts and payment information can be created in CRM system when users submitting queries or pay online.
-   summary: Developed backend stack to assist website and internal messaging system. Tech stack used- Python, Django, Django Rest-Framework, OAuth, Twilio, Ejabbered, Postgresql   
-   accomplishments:
-    - accomplishment: Designed RESTful APIs following common principles and implemented with Django, Django Rest-Framework and Postgresql. Frontend could retrieve, create and update data by calling the APIs.    
-    - accomplishment: Built Twilio webhook with Django to receive SMS from customers and forward to Ejabbered server. 1. Ejabbered is used as a backend message server to deliver the SMS to internal app. 2. Incoming messages will be automatically assigned to available sales/customercare team members based on Round-robin algorithm. 3. Postgresql is used to store messages as well as customers information.
-   summary: Project-focused intensive programming with emphasis on Python, Postgresql, Scrapy, Redis and MongoDB technical stack
-   accomplishments:
+    - accomplishment: Developed chatbot frontend, backend, and dashboard, using Vue.js, Flask, Flask-SocketIO, Socket.IO, etc. Tech stack used- Javascript, Vue.js, HTML/CSS, Python, Flask, Flask-SocketIO, Socket.IO, serverless, and Postgresql
+    - accomplishment: Developed website frontend for mobile devices and desktops with customized functionalities, using Vue.js. Tech stack used- Javascript, Vue.js, HTML/CSS
+    - accomplishment: Developed backend stack to assist website and internal messaging system. Tech stack used- Python, Django, Django Rest-Framework, OAuth, Twilio, Ejabbered, Postgresql   
     - accomplishment: Developed a distributed web crawler, using scrapy framework and scrapy-redis module. Redis is deployed in master node for slave nodes to store and fetch requests, as well as items. MongoDB is used to store crawled non-structured data. Item process cluster is deployed to process items in redis and persist them into postgresql database. Clusters are automatically deployed with docker container in cloud.
  - position: Intern, Full Stack Developer
    company: Bliss Motors
@@ -105,6 +95,30 @@ education:
     link: 
 
 projects:
+  - name: BlissMotors Chatbot Project
+    dates: April 2019 - Present
+    summary: Developed chatbot frontend, backend, and dashboard, using Vue.js, Flask, Flask-SocketIO, Socket.IO, etc. Tech stack used- Javascript, Vue.js, HTML/CSS, Python, Flask, Flask-SocketIO, Socket.IO, serverless, and Postgresql
+    accomplishments:
+     - accomplishment: Designed and implemented both mobile version and desktop version frontend from scratch.
+     - accomplishment: Designed and implemented bot dashboard from scratch.
+     - accomplishment: Designed and implemented chatbot backend from scratch with Flask, Flask-SocketIO and Serverless.
+  - name: BlissMotors Web Frontend
+    dates: January 2019 - April 2019
+    summary: Developed website frontend for mobile devices and desktops with customized functionalities, using Vue.js. Tech stack used- Javascript, Vue.js, HTML/CSS
+    accomplishments:
+     - accomplishment: Designed and implemented both mobile version and desktop version frontend from scratch with Vue.js framework. The website allowed users to browse news with different categories, search for new cars, submit queries, etc.
+     - accomplishment: Integrated third-party services such as SuiteCRM and Stripe into the website. Leads, contacts and payment information can be created in CRM system when users submitting queries or pay online.
+  - name: BlissMotors Web Backend Stack
+    dates: January 2019 - April 2019 
+    summary: Developed backend stack to assist website and internal messaging system. Tech stack used- Python, Django, Django Rest-Framework, OAuth, Twilio, Ejabbered, Postgresql   
+    accomplishments:
+    - accomplishment: Designed RESTful APIs following common principles and implemented with Django, Django Rest-Framework and Postgresql. Frontend could retrieve, create and update data by calling the APIs.    
+    - accomplishment: Built Twilio webhook with Django to receive SMS from customers and forward to Ejabbered server. 1. Ejabbered is used as a backend message server to deliver the SMS to internal app. 2. Incoming messages will be automatically assigned to available sales/customercare team members based on Round-robin algorithm. 3. Postgresql is used to store messages as well as customers information.
+  - name: BlissMotors Web Crawler
+    dates: January 2019 - April 2019 
+    summary: Project-focused intensive programming with emphasis on Python, Postgresql, Scrapy, Redis and MongoDB technical stack
+    accomplishments:
+     - accomplishment: Developed a distributed web crawler, using scrapy framework and scrapy-redis module. Redis is deployed in master node for slave nodes to store and fetch requests, as well as items. MongoDB is used to store crawled non-structured data. Item process cluster is deployed to process items in redis and persist them into postgresql database. Clusters are automatically deployed with docker container in cloud.
   - name: BMLIFE iOS app backend
     dates: May 2019 - June 2019
     summary: Developed BMLIFE backend stack to crawl data from internet, provide services to iOS app and process data offline. Tech stack used- Python, Django, Django Rest-Framework, Postgresql, Scrapy, Selenium, S3 and headless chrome.    
