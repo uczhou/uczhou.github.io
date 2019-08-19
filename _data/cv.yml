@@ -102,7 +102,7 @@ projects:
      - accomplishment: Designed and implemented both mobile version and desktop version frontend from scratch.
      - accomplishment: Designed and implemented bot dashboard from scratch.
      - accomplishment: Designed and implemented chatbot backend from scratch with Flask, Flask-SocketIO and Serverless.
-    link: www.telle.ai
+    link: https://www.telle.ai
     type: site
     langs: JavaScript, Vue.js, Python, Flask, Socket.IO
     
@@ -112,7 +112,7 @@ projects:
     accomplishments:
      - accomplishment: Designed and implemented both mobile version and desktop version frontend from scratch with Vue.js framework. The website allowed users to browse news with different categories, search for new cars, submit queries, etc.
      - accomplishment: Integrated third-party services such as SuiteCRM and Stripe into the website. Leads, contacts and payment information can be created in CRM system when users submitting queries or pay online.
-    link: www.blisslease.com
+    link: https://www.blisslease.com
     type: site
     langs: JavaScript,Vue.js,HTML/CSS
     
