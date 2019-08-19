@@ -61,23 +61,28 @@ technicalSkills:
     - tr: 
     - tr: 
   backend:
-   - name: Python
+   - name: Python,Java
      level: 85
-   - name: Java
-     level: 80
-   - name: PHP
+   - name: PHP,C
      level: 70
-   - name: C
-     level: 70
+   - name: Postgresql/MySQL,MongoDB,Redis
+     level: 85
+   - name: Django, Flask
+     level: 85
   frontend:
-   - name: HTML/CSS
-     level: 80
-   - name: JavaScript, Vue.js
-     level: 80
-  other:
-   - name: Postgresql/MySQL/SQL Server
+   - name: JavaScript
      level: 85
-   - name: AWS, Git, Docker, MongoDB
+   - name: Vue.js
+     level: 85
+   - name: HTML/CSS
+     level: 70
+   
+  other:
+   - name: Socket.IO
+     level: 85
+   - name: AWS(EC2,S3,CloudFront,Route53,SNS,SQS,etc.)
+     level: 85
+   - name: Git, Docker, OpenStack
      level: 70
 
 education:
